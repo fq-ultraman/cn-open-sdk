@@ -1,0 +1,29 @@
+{
+  "name": "cn-open-sdk",
+  "version": "1.0.0",
+  "description": "SDK for Chinese open platforms",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "china",
+    "open",
+    "platform",
+    "sdk",
+    "taobao"
+  ],
+  "author": "fq-ultraman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.3.5"
+  }
+}
